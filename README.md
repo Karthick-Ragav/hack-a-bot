@@ -4,17 +4,6 @@
 
 # *Support Ticket System for Educational Institutions*
 
-## *Table of Contents*
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Architecture](#architecture)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Global Exception Handling](#global-exception-handling)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
-
 ## *Introduction*
 This project implements an automated support ticket system tailored for educational institutions using UiPath. The system categorizes tickets based on priority and department, facilitating efficient issue resolution. It includes robust error handling through a global exception handler to ensure reliability and resilience.
 
@@ -35,7 +24,7 @@ The system architecture consists of several key components:
 ## *Installation*
 
 ### *Prerequisites*
-- *UiPath Studio*: Version X.X or higher.
+- *UiPath Studio*: Version 21 or higher.
 - *UiPath Orchestrator*: For deployment and management.
 - *AI Center*: For machine learning model deployment and management.
 - *Email Server*: Configured for sending notifications.
