@@ -10,7 +10,6 @@ This project implements an automated support ticket system tailored for educatio
 ## *Features*
 - *Ticket Classification*: Automatically categorizes tickets by priority and department using AI Center.
 - *Global Exception Handling*: Captures and manages errors across the workflow to ensure smooth operation.
-- *Email Notifications*: Sends alerts to the IT support team or administrators upon encountering critical issues.
 - *Retry Mechanism*: Attempts to recover from transient errors by retrying failed actions.
 - *Customizable Workflow*: Easily adaptable to different educational environments.
 
@@ -19,7 +18,6 @@ The system architecture consists of several key components:
 - *UiPath Workflows*: Automates the processing of support tickets.
 - *AI Center Integration*: Leverages machine learning models to classify tickets.
 - *Global Exception Handler*: Manages errors and ensures that the system responds appropriately.
-- *Orchestrator*: Schedules, monitors, and manages the automated workflows.
 
 ## *Installation*
 
@@ -32,7 +30,7 @@ The system architecture consists of several key components:
 ### *Steps*
 1. *Clone the Repository*
    bash
-   git clone 
+   git clone https://github.com/Karthick-Ragav/hack-a-bot
    cd support-ticket-system
    
 2. *Open in UiPath Studio*
@@ -40,9 +38,6 @@ The system architecture consists of several key components:
 
 3. *Configure the Project*
    - Update the project settings in UiPath Studio to match your environment, including AI Center connections and email server details.
-
-4. *Deploy to Orchestrator*
-   - Publish the project to UiPath Orchestrator to schedule and manage the automation.
 
 5. *Run the Workflow*
    - Start the workflow from UiPath Orchestrator or UiPath Assistant and monitor the logs.
@@ -63,4 +58,9 @@ The project includes a comprehensive global exception handler to manage errors d
 ### *Key Components*
 - *Logging*: Records error details in the logs.
 - *Retry Mechanism*: Automatically retries failed actions to handle transient errors.
+- 
+### *Future Enhancements*
+- *Email Notifications*: Sends alerts to the IT support team or administrators upon encountering critical issues.
+- *Orchestrator*: Schedules, monitors, and manages the automated workflows.
+
 
